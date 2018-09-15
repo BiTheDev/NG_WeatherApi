@@ -3,7 +3,7 @@ img{
     display: inline-block;
     vertical-align: top;
 }
-div{
+#content{
     display: inline-block;
     width:40%;
     margin-left:10%;

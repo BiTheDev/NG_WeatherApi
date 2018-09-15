@@ -1,10 +1,13 @@
+<div *ngIf="City">
 <h3 style="text-align:center;">{{City.name}}</h3>
 
-<div>
+<div id="content">
+    <!-- <p>{{City | json}}</p> -->
     <p>Humidity: {{City.main['humidity']}}</p>
     <p>Temp (AVG): {{City.main['temp']}}</p>
     <p>Temp (High): {{City.main['temp_max']}}</p>
     <p>TEMp (LOW): {{City.main['temp_min']}}</p>
     <p>Weather Status: {{City.weather[0]['description']}}</p>
-    <img src="" alt="">
+</div>
+<img src="{{img}}" alt="">
 </div>
